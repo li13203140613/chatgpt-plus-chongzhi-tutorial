@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="2026 ChatGPT Plus 充值开通完整教程封面">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="0.55" stop-color="#0f2a23"/>
+      <stop offset="1" stop-color="#08332b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10a37f"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="220" fill="#10a37f" opacity="0.08"/>
+  <circle cx="160" cy="560" r="180" fill="#34d399" opacity="0.06"/>
+  <text x="80" y="150" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="34" fill="#34d399" font-weight="700" letter-spacing="2">2026 最新 · 国内亲测可用</text>
+  <text x="80" y="262" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="84" fill="#ffffff" font-weight="800">ChatGPT Plus 充值</text>
+  <text x="80" y="372" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="84" fill="#ffffff" font-weight="800">开通完整教程</text>
+  <rect x="80" y="418" width="170" height="6" rx="3" fill="url(#accent)"/>
+  <text x="80" y="492" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="36" fill="#cbd5e1" font-weight="500">支付宝开通 · Plus / Pro / Codex · 充到自己账号</text>
+  <text x="80" y="556" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="30" fill="#94a3b8">4 种方法横向对比 · 避坑指南 · 报错排查 · FAQ</text>
+  <text x="80" y="600" font-family="-apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif" font-size="26" fill="#10a37f" font-weight="700">gpt-plus.ai</text>
+</svg>
