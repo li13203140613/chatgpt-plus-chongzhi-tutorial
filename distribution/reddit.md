@@ -1,27 +1,30 @@
 # Reddit 帖子文案
 
-**建议 subreddit**：r/ChatGPT、r/ChineseLanguage（华人多）、r/OpenAI（讨论向，注意自推广 10% 规则，先多输出价值）
+**建议 subreddit**：r/ChatGPT、r/OpenAI（讨论向，注意自推广 10% 规则，先多输出价值）
 
-**Title**: PSA for users in mainland China: why your card keeps getting declined on ChatGPT Plus, and the 4 ways that actually work in 2026
+**Title**: GPT-6 Sol is Plus/Pro only — why "card declined" keeps happening at checkout, and 6 ways people actually get Plus in 2026
 
 ---
 
-If you're in mainland China and keep hitting "Your credit card was declined" when trying to upgrade to ChatGPT Plus, it's not your fault and it's not fixable by changing your billing address or VPN.
+Since GPT-6 rolled into ChatGPT on Oct 7, Sol is only on Plus and Pro (Free and Go get Luna). A lot of people are now trying to upgrade and hitting "Your card was declined" — usually not because of the limit or the billing address.
 
-Stripe (OpenAI's payment processor) identifies the issuing bank by card BIN. Any card issued by a mainland Chinese bank gets rejected at that layer, regardless of IP, billing address, or credit limit. On top of that, 3D Secure verification (the SMS code step) usually isn't wired up for domestic cards, so even cards that pass BIN often fail there.
+ChatGPT's web checkout runs on Stripe, and it runs three checks before charging you:
 
-Here are the 4 paths that still work in 2026, ranked by how painful they are:
+1. **Card / BIN** — the first 6–8 digits identify the issuing bank and country. Plenty of Visa/Mastercard cards get rejected right there; changing the billing address or network doesn't help.
+2. **Network** — datacenter IPs often get flagged as proxies at the payment step even when the site loads fine.
+3. **3D Secure** — many banks never send the code, or the challenge page never shows up.
 
-1. **Overseas virtual credit cards** — Most popular providers shut down in late 2025 due to cross-border payment compliance. The remaining ones require KYC, monthly fees, and often USDT-only top-ups. Only worth it if you also subscribe to other overseas services.
+Every failed attempt also seems to make the next one more likely to fail. Here are the 6 routes I've tried, roughly from least to most painful:
 
-2. **Third-party top-up / activation services (easiest)** — You pay in RMB via Alipay, the platform completes the official subscription for you using enterprise-grade overseas rails + clean residential IP, and Plus lands on *your own account*. Done in minutes, works on all platforms. The key: pick one that tops up *your own account* (never asks for your password), takes traceable payment, and has a written refund/warranty policy.
+1. **Third-party top-up services** — you pay (e.g. via Alipay), get an activation code, and activate Plus on *your own account* by pasting the code plus your session. No password shared. Some even issue invoices.
+2. **Virtual credit cards** — KYC, often USDT-only top-ups, and BIN/IP risk checks still apply. Worth it only if you subscribe to lots of overseas services.
+3. **App Store gift cards** — iPhone only, needs a US Apple ID; sketchy-source cards can get the Apple ID locked.
+4. **Google Play billing** — same payment-method rejections, just in a different place.
+5. **Cheaper-region subscriptions** — need a local payment method; cross-region subs get cancelled.
+6. **Shared accounts** — everyone sees each other's chats, multi-location logins cause trouble. Avoid.
 
-3. **Apple gift cards** — iPhone-only. Requires switching Apple ID to the US region, buying and redeeming US gift cards. Apple's gift-card risk control tightened a lot in 2026, and stolen-source ("black") cards can get your whole Apple ID frozen.
+If you go the top-up route, check three things: (1) traceable payment method, (2) it tops up *your* account and never asks for your password, (3) written refund + warranty rules.
 
-4. **Shared accounts** — Cheap but everyone on the account can see each other's chat history, heavy rate limits, multi-region logins trigger bans, no support. Avoid.
+I wrote the full version — comparison table, step-by-step screenshots, pricing, EN/CN error message table, FAQ — on GitHub (search `chatgpt-plus-chongzhi-tutorial`). The one I use myself is gpt-plus.ai (own-account activation, Alipay, refund if the code is unused, 30-day warranty): https://gpt-plus.ai/?utm_source=reddit&utm_medium=post&utm_campaign=tutorial
 
-How to vet a top-up platform without getting burned: (1) tops up *your* account, never asks for your password; (2) supports Alipay/WeChat (traceable); (3) domain older than a year with real reviews; (4) written failure-refund + warranty + support; (5) public pricing.
-
-I put the full version — comparison table, pricing math, error troubleshooting, FAQ — on GitHub (search `chatgpt-plus-chongzhi-tutorial`). The platform I currently use that checks all five boxes is gpt-plus.ai (own-account top-up, Alipay, 30-day warranty, refund on failure): https://gpt-plus.ai/?utm_source=reddit&utm_medium=post&utm_campaign=tutorial
-
-Anyone else found a cleaner path that still works in 2026? Curious what's holding up for you.
+What's been working for you since GPT-6 dropped?
