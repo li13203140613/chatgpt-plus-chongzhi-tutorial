@@ -279,3 +279,15 @@ OpenAI 临时风控收紧的信号，常见于同 IP 短时间多次尝试、虚
 ---
 
 *觉得这份教程有用，欢迎点 ⭐ Star 收藏、分享给需要的朋友。开通入口：[gpt-plus.ai](https://gpt-plus.ai/?utm_source=github&utm_medium=readme&utm_campaign=tutorial)*
+
+---
+
+## 📖 更多文章
+
+- [ChatGPT 提示「你的银行卡被拒绝了」怎么办？](./articles/chatgpt-card-declined.md)
+- [ChatGPT 提示「付款未获批准」怎么办？](./articles/chatgpt-payment-not-approved.md)
+- [GPT-6 上线了：Sol、Luna、Astra 有什么区别，要开哪个会员？](./articles/gpt-6-sol-luna-astra.md)
+- [ChatGPT Go、Plus、Pro 有什么区别？该买哪个](./articles/chatgpt-go-plus-pro-difference.md)
+- [ChatGPT Plus 能用 Codex 吗？怎么开](./articles/chatgpt-plus-codex.md)
+- [ChatGPT 代充能开发票吗？公司报销怎么开](./articles/chatgpt-daichong-fapiao.md)
+- [ChatGPT Plus 到期怎么续费？怎么取消自动续费](./articles/chatgpt-renew-cancel-subscription.md)
